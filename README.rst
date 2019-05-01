@@ -14,9 +14,11 @@ This library is modified based on https://github.com/lyft/awspricing.
 
 
 Installation:
+.. code-block:: sh
 
-python setup.py biuld
-python setup.py install
+    $ python setup.py biuld
+    $ python setup.py install
+
 
 Usage
 -----
