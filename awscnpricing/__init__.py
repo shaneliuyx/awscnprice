@@ -14,7 +14,7 @@ session.mount('http://', HTTPAdapter(max_retries=5))
 session.mount('https://', HTTPAdapter(max_retries=5))
 
 
-OFFER_BASE_URL = 'https://pricing.amazonaws.com'
+OFFER_BASE_URL = 'https://pricing.cn-north-1.amazonaws.com.cn'
 OFFER_INDEX_ENDPOINT = '/offers/v1.0/cn/index.json'
 
 
