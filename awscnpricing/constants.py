@@ -30,8 +30,8 @@ class Enum(object):
 
 # noqa - Taken from: http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html
 REGION_SHORTS = {
-    'cn-northwest-1': 'China (Beijing)',
-    'cn-north-1': 'China (Ningxia)'
+    'cn-northwest-1': 'China (Ningxia)',
+    'cn-north-1': 'China (Beijing)'
 }
 
 
