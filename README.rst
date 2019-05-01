@@ -22,29 +22,30 @@ Usage
 -----
 
 .. code-block:: python
-import awscnpricing
-ec2_offer = awscnpricing.offer('AmazonEC2')
+   import awscnpricing
+   ec2_offer = awscnpricing.offer('AmazonEC2')
 
 
-ec2_offer.search_skus(
-  instance_type='c4.large',
-  location='China (Beijing)',
-  operating_system='Linux',
-)
+   ec2_offer.search_skus(
+     instance_type='c4.large',
+     location='China (Beijing)',
+     operating_system='Linux',
+   )
 
-ec2_offer.reserved_hourly(
-  'r5.24xlarge',
-  operating_system='Linux',
-  lease_contract_length='1yr',
-  offering_class='standard',
-  purchase_option='All Upfront',
-  region='cn-north-1'
-)
-ec2_offer.reserved_upfront(
-  'r5.24xlarge',
-  operating_system='Linux',
-  lease_contract_length='1yr',
-  offering_class='standard',
-  purchase_option='All Upfront',
-  region='cn-north-1'
-) 
+   ec2_offer.reserved_hourly(
+    'r5.24xlarge',
+    operating_system='Linux',
+    lease_contract_length='1yr',
+    offering_class='standard',
+    purchase_option='All Upfront',
+    region='cn-north-1'
+  )
+  ec2_offer.reserved_upfront(
+    'r5.24xlarge',
+    operating_system='Linux',
+    lease_contract_length='1yr',
+    offering_class='standard',
+    purchase_option='All Upfront',
+    region='cn-north-1'
+  )
+..
