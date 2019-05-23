@@ -377,10 +377,10 @@ class EC2Offer(AWSOffer):
                 .format(purchase_option, valid_options)
             )
 
-        if (lease_contract_length == EC2_LEASE_CONTRACT_LENGTH.ONE_YEAR and
-                offering_class == 'convertible'):
-            raise ValueError("The convertible offering class is not available "
-                             "on a 1year lease.")
+#       if (lease_contract_length == EC2_LEASE_CONTRACT_LENGTH.ONE_YEAR and
+#              offering_class == 'convertible'):
+#          raise ValueError("The convertible offering class is not available "
+#                         "on a 1year lease.")
 
 
 @implements('AmazonRDS')
