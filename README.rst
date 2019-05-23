@@ -45,7 +45,7 @@ Usage
       purchase_option='All Upfront',
       region='cn-north-1'
       )
-    e2_offer.reserved_upfront(
+    ec2_offer.reserved_upfront(
       'r5.24xlarge',
       operating_system='Linux',
       lease_contract_length='1yr',
