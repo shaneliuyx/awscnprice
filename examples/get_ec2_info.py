@@ -3,9 +3,9 @@
 
 import requests
 import pandas as pd
-import awscnpricing
 import os
 import json
+import awscnpricing
 os.environ['AWSPRICING_USE_CACHE'] = "1"
 os.environ['AWSPRICING_CACHE_PATH'] = "/tmp/awscnpricing"
 os.environ['AWSPRICING_CACHE_MINUTES'] = "1440"
