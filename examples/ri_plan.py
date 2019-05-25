@@ -35,4 +35,4 @@ for i in range(0, len(cost)):
     current_date = start_day + timedelta(days=i)
     current_date = datetime.combine(current_date, datetime.min.time())
     print("{}   {:.2f}".format(current_date.strftime('%Y-%m-%d'), cost[i]))
-print ('\nRecommanded date to buy RI is {}'.format(recommand_date))
+print ('\nRecommended date to buy RI is {}'.format(recommand_date))
