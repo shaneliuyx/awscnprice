@@ -6,7 +6,8 @@ output = pd.DataFrame()
 #os.environ['EXCLUDE_EC2_TYPE'] = "3,t"
 
 ri = RI()
-for index, row in input.iterrows():
+for i in range(0, input.shape[0]):
+    row = pd.DataFrame(input.loc[[i]])
     row = row.reset_index(drop=True)
     result = ri.select_ec2_by_type(input_row=row)
     output = output.append(result, ignore_index=True, sort=False)
